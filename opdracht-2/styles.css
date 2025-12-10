@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+}
+
+.header-wrapper {
+    display: flex;
+
+
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    gap: 20px;
+    row-gap: 30px;
+}
+
+.main-content {
+    flex-basis: 250px;
+    flex-grow: 7;
+    flex-shrink: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.navbar div {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-buttons button {
+    width: 100%;
+}
+
+.button-two {
+    background-color: #383838;
+    color: white;
+    border: none;
+}
