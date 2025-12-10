@@ -18,8 +18,10 @@ body {
     row-gap: 30px;
 }
 
-.main-content {
+.header-content {
+    display: flex;
     flex-basis: 250px;
+    flex-direction: column;
     flex-grow: 7;
     flex-shrink: 0;
 }
@@ -33,7 +35,7 @@ nav ul {
     gap: 10px;
 }
 
-.nav-list {
+.nav-list li {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -55,4 +57,32 @@ nav ul {
     background-color: #383838;
     color: white;
     border: none;
+}
+
+.header-section h1, p {
+    text-align: center;
+}
+
+.header-section {
+    flex: 0;
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25vh 0;
+
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section {
+    background-color: #383838;
+    color: white;
+    padding: 1vh 0;
 }
