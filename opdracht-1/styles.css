@@ -1,0 +1,99 @@
+/*Navigatiebalk 1*/
+
+.navbar-one ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Navigatiebalk 2*/
+
+.navbar-two ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*Navigatiebalk 3*/
+
+.navbar-three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-three ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-three div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*Navigatiebalk 4*/
+
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.navbar-four div{
+    display: flex;
+    gap: 10px;
+}
+
+.button-wrapper-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+/*Navigatiebalk 5*/
+
+.navbar-five {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-five ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-middle {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.navbar-five div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button-wrapper-2 {
+    display: flex;
+    gap: 20px;
+}
